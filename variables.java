@@ -11,8 +11,11 @@ public class variables {
         System.out.println(vChar);
         System.out.println(v2Char);
         System.out.println("" + vChar + v2Char);
-        boolean deneme = true;
-        System.out.println(deneme);
 
+        int a = 4;
+        int b = 6;
+        boolean sonuc = a == b;
+        String str = sonuc ? "dogru" : "degil";
+        System.out.println(str);
     }
 }
